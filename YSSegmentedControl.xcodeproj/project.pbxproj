@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51BDF901DBF5C26001AFE57 /* YSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E51BDF8F1DBF5C26001AFE57 /* YSSegmentedControl.m */; };
 		E575BCA81CBE1B8E00973026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCA71CBE1B8E00973026 /* main.m */; };
 		E575BCAB1CBE1B8E00973026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCAA1CBE1B8E00973026 /* AppDelegate.m */; };
 		E575BCAE1CBE1B8E00973026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCAD1CBE1B8E00973026 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		E575BCB61CBE1B8E00973026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E575BCB41CBE1B8E00973026 /* LaunchScreen.storyboard */; };
 		E575BCC11CBE1B8F00973026 /* YSSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCC01CBE1B8F00973026 /* YSSegmentedControlTests.m */; };
 		E575BCCC1CBE1B8F00973026 /* YSSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCCB1CBE1B8F00973026 /* YSSegmentedControlUITests.m */; };
-		E575BCDB1CBE1BFE00973026 /* YSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BCDA1CBE1BFE00973026 /* YSSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51BDF8E1DBF5C26001AFE57 /* YSSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSegmentedControl.h; sourceTree = "<group>"; };
+		E51BDF8F1DBF5C26001AFE57 /* YSSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSegmentedControl.m; sourceTree = "<group>"; };
 		E575BCA31CBE1B8E00973026 /* YSSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E575BCA71CBE1B8E00973026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E575BCA91CBE1B8E00973026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		E575BCC71CBE1B8F00973026 /* YSSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E575BCCB1CBE1B8F00973026 /* YSSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSSegmentedControlUITests.m; sourceTree = "<group>"; };
 		E575BCCD1CBE1B8F00973026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E575BCD91CBE1BFE00973026 /* YSSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSegmentedControl.h; sourceTree = "<group>"; };
-		E575BCDA1CBE1BFE00973026 /* YSSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51BDF8D1DBF5C26001AFE57 /* YSsegement */ = {
+			isa = PBXGroup;
+			children = (
+				E51BDF8E1DBF5C26001AFE57 /* YSSegmentedControl.h */,
+				E51BDF8F1DBF5C26001AFE57 /* YSSegmentedControl.m */,
+			);
+			path = YSsegement;
+			sourceTree = "<group>";
+		};
 		E575BC9A1CBE1B8E00973026 = {
 			isa = PBXGroup;
 			children = (
+				E51BDF8D1DBF5C26001AFE57 /* YSsegement */,
 				E575BCA51CBE1B8E00973026 /* YSSegmentedControl */,
 				E575BCBF1CBE1B8F00973026 /* YSSegmentedControlTests */,
 				E575BCCA1CBE1B8F00973026 /* YSSegmentedControlUITests */,
@@ -108,8 +118,6 @@
 				E575BCAA1CBE1B8E00973026 /* AppDelegate.m */,
 				E575BCAC1CBE1B8E00973026 /* ViewController.h */,
 				E575BCAD1CBE1B8E00973026 /* ViewController.m */,
-				E575BCD91CBE1BFE00973026 /* YSSegmentedControl.h */,
-				E575BCDA1CBE1BFE00973026 /* YSSegmentedControl.m */,
 				E575BCAF1CBE1B8E00973026 /* Main.storyboard */,
 				E575BCB21CBE1B8E00973026 /* Assets.xcassets */,
 				E575BCB41CBE1B8E00973026 /* LaunchScreen.storyboard */,
@@ -275,10 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E575BCDB1CBE1BFE00973026 /* YSSegmentedControl.m in Sources */,
 				E575BCAE1CBE1B8E00973026 /* ViewController.m in Sources */,
 				E575BCAB1CBE1B8E00973026 /* AppDelegate.m in Sources */,
 				E575BCA81CBE1B8E00973026 /* main.m in Sources */,
+				E51BDF901DBF5C26001AFE57 /* YSSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +512,7 @@
 				E575BCD21CBE1B8F00973026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E575BCD31CBE1B8F00973026 /* Build configuration list for PBXNativeTarget "YSSegmentedControlTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				E575BCD51CBE1B8F00973026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E575BCD61CBE1B8F00973026 /* Build configuration list for PBXNativeTarget "YSSegmentedControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +530,7 @@
 				E575BCD81CBE1B8F00973026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
