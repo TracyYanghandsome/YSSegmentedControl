@@ -118,7 +118,7 @@ static NSInteger pageNumber = 0;
 - (void)changeTheSegument:(UIButton*)button{
     [self selectTheSegument:button.tag];
 }
-- (void)selectTheSegument:(NSInteger)segument{
+- (void)selectTheSegument:(long)segument{
     
     if (selectSeugment!=segument) {
         [self.ButtonArray[selectSeugment] setSelected:NO];
