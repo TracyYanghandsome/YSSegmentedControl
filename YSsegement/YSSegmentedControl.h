@@ -14,7 +14,7 @@
 /**
  外界调用获取点击下标
  */
-- (void)uisegumentSelectionChange:(long)selection;
+- (void)uisegumentSelectionChange:(NSInteger)selection;
 
 @end
 
