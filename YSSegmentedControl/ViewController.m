@@ -67,7 +67,7 @@
  */
 -(void)uisegumentSelectionChange:(NSInteger)selection{
     
-    NSLog(@"%ld",selection);
+    //    NSLog(@"%ld",selection);
 }
 
 

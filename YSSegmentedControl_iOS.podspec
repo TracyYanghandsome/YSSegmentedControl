@@ -19,13 +19,12 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "类似于新闻的滑动视图"
   s.homepage     = "https://github.com/TracyYanghandsome/YSSegmentedControl"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "TracyYanghandsome" => "2224202043@qq.com" }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/TracyYanghandsome/YSSegmentedControl.git", :tag => "0.0.1" }
   s.source_files  = "YSSegmentedControl", "YSsegement/**/*.{h,m}"
   s.framework  = "UIKit"
   s.requires_arc = true
- 
 
 end
