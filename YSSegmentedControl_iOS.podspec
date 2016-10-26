@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint YSSegmentedControl.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YSSegmentedControl_iOS.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "类似于新闻的滑动视图"
   s.homepage     = "https://github.com/TracyYanghandsome/YSSegmentedControl"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
   s.author             = { "TracyYanghandsome" => "2224202043@qq.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/TracyYanghandsome/YSSegmentedControl.git", :tag => "0.0.1" }
